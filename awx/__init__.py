@@ -2,9 +2,11 @@
 # All Rights Reserved.
 from __future__ import absolute_import, unicode_literals
 
-import os
-import sys
-import warnings
+import re # use re
+import os # use os
+import sys # use sys
+import warnings # use warnings
+
 
 from pkg_resources import get_distribution
 
