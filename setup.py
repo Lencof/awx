@@ -3,10 +3,10 @@
 # Copyright (c) 2015 Ansible, Inc.
 # All Rights Reserved.
 
-import os
-import glob
-import sys
-from setuptools import setup
+import os # use os
+import sys # use sys
+import glob # use glob
+from setuptools import setup # use setup
 from setuptools.command.egg_info import egg_info as _egg_info
 
 
@@ -17,7 +17,7 @@ bindir = "/usr/bin"
 sharedir = "/usr/share/awx"
 docdir = "/usr/share/doc/awx"
 
-
+# create def get_version():
 def get_version():
     current_dir = os.path.dirname(os.path.abspath(__file__))
     version_file = os.path.join(current_dir, 'VERSION')
